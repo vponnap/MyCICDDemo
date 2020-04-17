@@ -5,12 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DockerController {
-
     @GetMapping("/hello")
     public String getMessage(){
         return "hello Docker";
     }
-
     @GetMapping("/helloDocker")
     public String getDocker(){
         return "hello Docker 01";
