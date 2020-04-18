@@ -10,8 +10,8 @@ public class DockerController {
         return "hello Docker";
     }
 
-    @GetMapping("/helloDocker")
+    @GetMapping("/docker")
     public String getDocker(){
-        return "hello Docker 01";
+        return "hello Docker 02";
     }
 }
