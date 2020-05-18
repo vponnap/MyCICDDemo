@@ -12,11 +12,11 @@ public class DockerController {
 
     @GetMapping("/docker")
     public String getDocker(){
-        return "hello Docker 04";
+        return "hello Docker Kanha";
     }
 
     @GetMapping("/docker")
     public String getDockerImages(){
-        return "hello Docker Images are Jenkins,wordpress";
+        return "hello Docker Images";
     }
 }
