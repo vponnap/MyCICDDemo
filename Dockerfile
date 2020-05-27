@@ -5,3 +5,4 @@ ENTRYPOINT ["java", "-jar", "MyCICDDemo.git-0.0.1-SNAPSHOT.jar"]
 
 
 
+
